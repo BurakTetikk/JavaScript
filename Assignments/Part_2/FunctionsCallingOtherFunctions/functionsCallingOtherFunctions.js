@@ -15,7 +15,7 @@ function percentageOfWorld(population) {
 }
 
 function describePopulation(country, population) {
-    return `${country} has ${population} people, which is about ${percentageOfWorld(population)}% of the world`;
+    return `${country} has ${population} people, which is about ${percentageOfWorld(population).toFixed(2)}% of the world`;
 }
 
 console.log(describePopulation('Turkey', 85));
