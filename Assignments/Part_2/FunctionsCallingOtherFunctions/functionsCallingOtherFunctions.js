@@ -20,4 +20,4 @@ function describePopulation(country, population) {
 
 console.log(describePopulation('Turkey', 85));
 console.log(describePopulation('USA', 332));
-console.log(describePopulation('China', 1441));
+console.log(describePopulation('China', 1441));  
